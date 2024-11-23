@@ -1,7 +1,34 @@
-# Welcome to the Self Evaluation Tool
+# Next.js App
 
-This tool is designed to help individuals optimize their best personality traits while also addressing potential gaps or weaknesses. Our goal is to empower you on your journey of self-improvement and personal growth.
+This is a Next.js application configured to connect to a PostgreSQL database.
 
-We proudly utilize [scramblesolutions.com](https://scramblesolutions.com) for scrambled authentication, ensuring that your identity is never at risk of being sold or shared. Even in the unlikely event of a database compromise, your identity will remain protected.
+## Installation
 
-Join us in exploring your potential and enhancing your strengths!
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env.local` file in the root directory and add your PostgreSQL connection details:
+   ```env
+   DATABASE_URL=postgres://<username>:<password>@<host>:<port>/<database>
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Database Configuration
+
+Make sure to replace `<username>`, `<password>`, `<host>`, `<port>`, and `<database>` with your actual PostgreSQL database credentials.
+
+## Next.js Documentation
+
+For more information on Next.js, visit the [Next.js Documentation](https://nextjs.org/docs).
