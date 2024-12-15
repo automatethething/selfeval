@@ -1,6 +1,6 @@
-# Next.js App
+# Self-Evaluation App
 
-This is a Next.js application configured to connect to a PostgreSQL database.
+A self evaluation help that helps leverage your personality traits to bring out your most unique assets, and will provide you custom tips to optimizing our doubling down on your strongest skill sets, and it also provides advice on opportunities to explore on your weaker traits as well.
 
 ## Architecture Overview
 - OIDC-based Authentication
