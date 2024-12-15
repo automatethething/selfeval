@@ -2,6 +2,22 @@
 
 This is a Next.js application configured to connect to a PostgreSQL database.
 
+## Architecture Overview
+- OIDC-based Authentication
+- Anonymous Personality Analysis
+- OpenAI Integration with Privacy Protections
+
+## Key Security Features
+1. User identities never directly sent to OpenAI
+2. Anonymized, encrypted personality insights
+3. Unique anonymous identifiers for each evaluation
+
+## Setup Requirements
+- OIDC Provider Configuration
+- OpenAI API Key
+- Encryption Secret
+- Database (PostgreSQL/MySQL recommended)
+
 ## Installation
 
 1. Clone the repository:
